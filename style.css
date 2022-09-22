@@ -1,0 +1,53 @@
+/*Selector universal*/
+*{
+    /*Color de fondo*/
+    background-color: aquamarine;
+
+    /*Color de texto*/
+    color: brown;
+
+}
+
+/*Selector de un tag especifico*/
+h1{
+    color: darkgoldenrod;
+    border: solid black;
+} 
+
+h2{
+    color: cornflowerblue;
+}
+
+h3{
+    color: chartreuse;
+}
+
+/*Selector de clase*/
+.tipografia{
+    /*tipografia*/
+    font-family: sans-serif;
+
+    /*tamaño*/
+    font-size: x-large;
+
+    /* peso */
+    font-weight: 900;
+
+    /*alineacion*/
+    text-align: center;
+}
+
+/* De ID */
+#rosa{
+    color: black;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+img, video{
+    width: 400px;
+    border: solid red;
+ }
